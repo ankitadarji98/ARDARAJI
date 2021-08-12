@@ -184,10 +184,10 @@ function submitdata()
 	<input type="radio" name="purpose" required id="purpose2" onclick="showTextarea()">
     <label for="Comment">Comment</label>
     <input  type="radio" name="purpose" required id="purpose3"  onclick="showTextBox()">
-	 <label for="Hireing" >Hireing</label>
+	 <label for="Hiring" >Hiring</label>
     <div id="msgpurpose" style="color:red"></div>
    
-	<input type="text" name="hireing" required id="hireing" placeholder="Hireing" style="display:none">
+	<input type="text" name="hiring" required id="hiring" placeholder="Hiring" style="display:none">
     
 	<textarea name="comment" id="comments" required placeholder="Comments" cols="30" rows="4" style="display:none"></textarea>
     <textarea name="question" id="commentsQ" required placeholder="Question" cols="30" rows="4" style="display:none"></textarea>
@@ -222,12 +222,12 @@ function navfunction() {
 <script>
 
   function showTextBox() {
-    var a=document.getElementById('hireing').style.display="block";
+    var a=document.getElementById('hiring').style.display="block";
     var a=document.getElementById('comments').style.display="none";
     var a=document.getElementById('commentsQ').style.display="none";
 }
 function showTextarea(){
-  var b=document.getElementById('hireing').style.display="none";
+  var b=document.getElementById('hiring').style.display="none";
   var b=document.getElementById('comments').style.display="block";
   var b=document.getElementById('commentsQ').style.display="none";
 
